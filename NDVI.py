@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 from sentinelhub import (MimeType,CRS,BBox,SentinelHubRequest,SentinelHubDownloadClient,DataCollection,bbox_to_dimensions,DownloadRequest,MosaickingOrder)
 
 
-from utils  import plot_image
+from utils import plot_image
 
 config = SHConfig()
 
